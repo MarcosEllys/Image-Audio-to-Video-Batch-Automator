@@ -1,0 +1,27 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ficheiros de Mídia (Input/Output)
+# É boa prática não subir os ficheiros de produção para o repositório
+audio/*
+image/*
+video/*
+
+# Exceção para manter as pastas estruturadas no Git (opcional)
+# Se quiser que as pastas existam mas fiquem vazias, use um ficheiro .gitkeep dentro delas
+!audio/.gitkeep
+!image/.gitkeep
+!video/.gitkeep
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# Configurações de IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
