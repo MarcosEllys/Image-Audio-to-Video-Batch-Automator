@@ -1,0 +1,20 @@
+{
+  "name": "image-audio-to-video",
+  "version": "1.0.0",
+  "description": "Automação para converter imagem estática e áudio em vídeo MP4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ffmpeg",
+    "video",
+    "automation",
+    "audio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
